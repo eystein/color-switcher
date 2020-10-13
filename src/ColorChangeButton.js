@@ -1,7 +1,10 @@
 import React from 'react'
 
-function ColorChangeButton(){
-	return <button>Hi!</button>
+function ColorChangeButton(props){
+	console.log(props);
+	return <button className={props.color}>
+		{props.color}
+	</button>
 }
 
 export default ColorChangeButton

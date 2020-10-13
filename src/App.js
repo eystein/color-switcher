@@ -9,9 +9,9 @@ function App() {
 		<div className={'react-root ' + color}>
 			<div className="centered">
 				<h1>Color Picker</h1>
-				<ColorChangeButton/>
-				<ColorChangeButton />
-				<ColorChangeButton />
+				<ColorChangeButton color="red"/>
+				<ColorChangeButton color="blue"/>
+				<ColorChangeButton color="yellow"/>
 				<button className="red" onClick={() => setColor('red')}>Red</button>
 				<button className="blue" onClick={() => setColor('blue')}>Blue</button>
 				<button className="yellow" onClick={() => setColor('yellow')}>Yellow</button>
