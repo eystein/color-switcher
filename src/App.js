@@ -11,10 +11,7 @@ function App() {
 				<h1>Color Picker</h1>
 				<ColorChangeButton color="red" setColor={setColor}/>
 				<ColorChangeButton color="blue" setColor={setColor}/>
-				<ColorChangeButton color="yellow" setColor={setColor}/>
-				<button className="red" onClick={() => setColor('red')}>Red</button>
-				<button className="blue" onClick={() => setColor('blue')}>Blue</button>
-				<button className="yellow" onClick={() => setColor('yellow')}>Yellow</button>
+				<ColorChangeButton color="yellow" setColor={setColor}/>			
 			</div>
 		</div>
   );
